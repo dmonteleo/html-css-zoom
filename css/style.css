@@ -1,15 +1,40 @@
-/* HEADER */
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  color: white;
+
+}/* HEADER */
 
 header {
   height: 100px;
   width: 100%;
 }
 
+
+
 /* MAIN */
 
 main {
   height: calc(100vh - 200px);
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: center;
+  /* align-content: flex-start; */
+}
+
+.partecipant {
+  position: relative;
+}
+
+.partecipant span {
+  position: absolute;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 0;
+  left: 0;
+  margin: 5px;
 }
 
 /* FOOTER */
