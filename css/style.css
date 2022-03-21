@@ -1,6 +1,22 @@
 /* HEADER */
 
+header {
+  height: 100px;
+  width: 100%;
+}
+
 /* MAIN */
+
+main {
+  height: calc(100vh - 200px);
+  width: 100%;
+}
 
 /* FOOTER */
 
+footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
